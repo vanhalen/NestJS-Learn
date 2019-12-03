@@ -1,0 +1,10 @@
+type Usuario {
+	id: Int
+	nome: String
+	descricao: String
+}
+
+extend type Query {
+	usuario(id: Int!): Usuario
+	usuarios: [Usuario]
+}

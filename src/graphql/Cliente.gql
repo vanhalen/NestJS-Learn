@@ -1,0 +1,10 @@
+type Cliente {
+	id: Int
+	nome: String
+	contador: Int
+}
+
+extend type Query {
+	cliente(id: Int!): Cliente
+	clientes: [Cliente]
+}

@@ -9,10 +9,20 @@ $ npx -p @nestjs/cli nest new NestJS-Learn
 $ yarn add @nestjs/graphql apollo-server-express graphql-tools graphql
 ```
 
+or
+
+```bash
+$ git clone https://rchagas@bitbucket.org/rchagas/nestjs-learn.git
+```
+
 ## dependencies
 
 ```bash
+# npm
 $ npm install -g npx
+
+# npm (for clone)
+$ yarn install
 ```
 
 ## Running the app
@@ -20,4 +30,7 @@ $ npm install -g npx
 ```bash
 # development
 $ yarn start:dev
+
+# production
+$ yarn start
 ```

@@ -15,7 +15,7 @@ or
 $ git clone https://rchagas@bitbucket.org/rchagas/nestjs-learn.git
 ```
 
-## dependencies
+## Dependencies
 
 ```bash
 # npm

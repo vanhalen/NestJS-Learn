@@ -21,8 +21,17 @@ $ git clone https://rchagas@bitbucket.org/rchagas/nestjs-learn.git
 # npm
 $ npm install -g npx
 
-# npm (for clone)
+# yarn (for clone)
 $ yarn install
+
+# nodemailer
+$ npm install nodemailer
+
+# rxjs
+$ npm install rxjs
+
+# moment
+$ yarn add moment
 ```
 
 ## Running the app

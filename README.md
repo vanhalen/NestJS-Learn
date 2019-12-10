@@ -32,6 +32,9 @@ $ npm install rxjs
 
 # moment
 $ yarn add moment
+
+#Repositorie Image Docker
+https://hub.docker.com/repository/docker/rodrigorrchagas/nestjs-learn
 ```
 
 ## Running the app

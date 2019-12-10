@@ -38,8 +38,24 @@ $ yarn add moment
 
 ```bash
 # development
-$ yarn start:dev
+$ docker-compose up
 
 # production
-$ yarn start
+$ docker-compose up
 ```
+
+<!--
+Criar arquivo init.dev.sh na raiz
+$ chmod 777 init.dev.sh
+
+Configurar arquivos .env | dockerfile
+Buildar/Criar imagem do projeto
+$ docker build --tag=nestjs_api .
+
+Rodar projeto
+$ docker run -ti nestjs_api
+
+Docker-Compose
+Configurar arquivo docker-compose.yml
+$docker-compose up
+ -->

@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  api:
+    build: ./
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app/
+    container_name: nestjs_api
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.api.port=3000'
+      - 'traefik.api.frontend.rule=Host:api.nestjs.localhost'
+      - 'traefik.http.services.nestjs-web.loadbalancer.server.port=3000'
+      - 'traefik.http.routers.nestjs-web.rule=Host(`api.nestjs.localhost`)'
